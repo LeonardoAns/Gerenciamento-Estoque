@@ -21,7 +21,7 @@
         <li>Navegue até o diretório do projeto:
             <pre><code>cd shopp</code></pre>
         </li>
-        <li>Configure o banco de dados PostgreSQL e ajuste as configurações de conexão no arquivo <code>application.properties</code> ou <code>application.yml</code> localizado em <code>src/main/resources</code>.</li>
+        <li>Configure o banco de dados PostgreSQL e ajuste as configurações de conexão no arquivo <code>application.properties</code> localizado em <code>src/main/resources</code>.</li>
         <li>Compile e execute o projeto:
             <pre><code>./mvnw spring-boot:run</code></pre>
             ou
