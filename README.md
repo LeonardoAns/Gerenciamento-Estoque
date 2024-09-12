@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
     <h1>Gerenciamento de Estoque</h1>
     <h2>Descrição</h2>
@@ -13,10 +16,10 @@
     <h2>Como Clonar o Repositório e Rodar</h2>
     <ol>
         <li>Clone o repositório:
-            <pre><code>git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git</code></pre>
+            <pre><code>git clone git@github.com:LeonardoAns/Gerenciamento-Estoque.git</code></pre>
         </li>
         <li>Navegue até o diretório do projeto:
-            <pre><code>cd SEU_REPOSITORIO</code></pre>
+            <pre><code>cd shopp</code></pre>
         </li>
         <li>Configure o banco de dados PostgreSQL e ajuste as configurações de conexão no arquivo <code>application.properties</code> ou <code>application.yml</code> localizado em <code>src/main/resources</code>.</li>
         <li>Compile e execute o projeto:
@@ -24,6 +27,9 @@
             ou
             <pre><code>mvn spring-boot:run</code></pre>
         </li>
+        <!-- Se houver comandos para rodar testes, adicione aqui -->
+        <!-- <li>Para rodar os testes, use:</li>
+        <li><pre><code>./mvnw test</code></pre></li> -->
     </ol>
     <h2>Estrutura de Pastas</h2>
     <pre><code>
@@ -56,8 +62,9 @@ src/
     <p>O projeto ainda está em desenvolvimento. As seguintes melhorias estão planejadas:</p>
     <ul>
         <li>Escrever mais testes para garantir a robustez do sistema.</li>
-        <li>Desenvolver a Documentação</li>
+        <li>Desenvolver a documentação.</li>
         <li>Refatorar algumas partes do código para melhorar a qualidade e manutenção.</li>
     </ul>
 </body>
+
 </html>
